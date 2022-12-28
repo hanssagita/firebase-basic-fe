@@ -1,5 +1,5 @@
 import React from 'react'
-import { auth } from '../../utils/firebaseConfig'
+import { auth } from '../../../firebaseConfig'
 import { onAuthStateChanged } from "firebase/auth";
 
 const GetLoginStatus = () => {

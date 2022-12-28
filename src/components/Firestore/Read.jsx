@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { db } from '../../utils/firebaseConfig'
+import { db } from '../../../firebaseConfig'
 import { doc, getDoc, collection, getDocs } from 'firebase/firestore'
 
 const Read = () => {

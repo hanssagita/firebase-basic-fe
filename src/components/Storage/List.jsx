@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { ref, listAll, getDownloadURL } from "firebase/storage";
-import { storage } from '../../utils/firebaseConfig'
+import { storage } from '../../../firebaseConfig'
 
 const List = () => {
 

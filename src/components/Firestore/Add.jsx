@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import SimpleInput from '../../hooks/SimpleInput'
-import { db } from '../../utils/firebaseConfig'
+import { db } from '../../../firebaseConfig'
 import { doc, setDoc } from 'firebase/firestore'
 
 const Add = () => {
