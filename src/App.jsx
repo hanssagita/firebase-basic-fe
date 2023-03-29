@@ -1,6 +1,7 @@
 import Auth from './components/Auth'
 import Firestore from './components/Firestore'
 import Storage from './components/Storage'
+import Database from './components/Database'
 function App() {
 
   return (
@@ -9,6 +10,7 @@ function App() {
       <Auth />
       <Firestore />
       <Storage />
+      <Database />
     </div>
   )
 }
